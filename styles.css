@@ -90,8 +90,22 @@ textarea:focus, input:focus{
     color: #33353B;
 }
 
-::placeholder {
-    padding-top: 1.5em;
-    font-size: 0.5em;
-    line-height: normal !important;
+@media (max-width: 576px) {
+    .input-main {
+        font-size: 5em;
+    }
+
+    .input-secondary {
+        font-size: 4em;
+    }
+
+    ::placeholder {
+        padding-top: 1.5em;
+        font-size: 0.5em;
+        line-height: normal !important;
+    }
+}
+
+.footer {
+    height: 5em;
 }
