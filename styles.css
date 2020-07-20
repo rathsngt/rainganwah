@@ -12,20 +12,7 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
-}
-
-input {
-    text-align: bottom;
-}
-  
-::-webkit-input-placeholder {
-    text-align: bottom;
-}
-  
-:-moz-placeholder {
-    text-align: bottom;
-}
-  
+} 
 
 .vh-33 {
     height: 150%;
@@ -41,6 +28,7 @@ input {
     width: 100%;
     margin: 0;
     padding: 0;
+    line-height: normal;
     /* height: 20px;
     width: 160px;
     color: #CCC; */
@@ -56,6 +44,7 @@ input {
     width: 100%;
     margin: 0;
     padding: 0;
+    line-height: normal;
     /* height: 20px;
     width: 160px;
     color: #CCC; */
