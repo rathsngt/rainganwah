@@ -90,7 +90,7 @@ textarea:focus, input:focus{
     color: #33353B;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .input-main {
         font-size: 5em;
     }
