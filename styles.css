@@ -32,7 +32,6 @@ input::-webkit-input-placeholder {
     width: 100%;
     margin: 0;
     padding: 0;
-    line-height: normal;
     /* height: 20px;
     width: 160px;
     color: #CCC; */
@@ -48,7 +47,6 @@ input::-webkit-input-placeholder {
     width: 100%;
     margin: 0;
     padding: 0;
-    line-height: normal;
     /* height: 20px;
     width: 160px;
     color: #CCC; */
@@ -81,16 +79,19 @@ textarea:focus, input:focus{
 }
 
 .section-1 input::placeholder {
-    font-size: 0.5em;
     color: #DDDDDD;
 }
 
 .section-2 input::placeholder {
-    font-size: 0.5em;
     color: #C1c1c1;
 }
 
 .section-3 input::placeholder {
-    font-size: 0.5em;
     color: #33353B;
+}
+
+::placeholder {
+    padding-top: 1.5em;
+    font-size: 0.5em;
+    line-height: normal !important;
 }
