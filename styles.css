@@ -14,6 +14,19 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+input {
+    text-align: bottom;
+}
+  
+::-webkit-input-placeholder {
+    text-align: bottom;
+}
+  
+:-moz-placeholder {
+    text-align: bottom;
+}
+  
+
 .vh-33 {
     height: 150%;
 }
