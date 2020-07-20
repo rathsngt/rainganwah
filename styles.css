@@ -92,11 +92,11 @@ textarea:focus, input:focus{
 
 @media (max-width: 768px) {
     .input-main {
-        font-size: 5em;
+        font-size: 4em;
     }
 
     .input-secondary {
-        font-size: 4em;
+        font-size: 3em;
     }
 
     ::placeholder {
