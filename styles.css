@@ -75,16 +75,16 @@ textarea:focus, input:focus{
 }
 
 .section-1 input::placeholder {
-    font-size: 0.5em;
+    font-size: 0.3em;
     color: #DDDDDD;
 }
 
 .section-2 input::placeholder {
-    font-size: 0.5em;
+    font-size: 0.3em;
     color: #C1c1c1;
 }
 
 .section-3 input::placeholder {
-    font-size: 0.5em;
+    font-size: 0.3em;
     color: #33353B;
 }
