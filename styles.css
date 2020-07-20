@@ -1,0 +1,83 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.vh-33 {
+    height: 150%;
+}
+
+.input-main {
+    background-color: transparent;
+    border: 0px solid;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 6em;
+    display: block;
+    width: 100%;
+    /* height: 20px;
+    width: 160px;
+    color: #CCC; */
+}
+
+.input-secondary {
+    background-color: transparent;
+    border: 0px solid;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    display: block;
+    font-size: 5em;
+    width: 100%;
+    /* height: 20px;
+    width: 160px;
+    color: #CCC; */
+}
+
+.label-main {
+    display: block;
+    font-size: 2em;
+}
+
+.label-secondary {
+    display: block;
+    font-size: 2em;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.section-1 {
+    background-color: #ffffff;
+}
+
+.section-2 {
+    background-color: #E3E3E3;
+}
+
+.section-3 {
+    background-color: #55585D;
+}
+
+.section-1 input::placeholder {
+    color: #DDDDDD;
+}
+
+.section-2 input::placeholder {
+    color: #C1c1c1;
+}
+
+.section-3 input::placeholder {
+    color: #33353B;
+}
