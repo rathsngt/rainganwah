@@ -26,8 +26,8 @@ input[type=number] {
     font-size: 6em;
     display: block;
     width: 100%;
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0;
     /* height: 20px;
     width: 160px;
     color: #CCC; */
@@ -41,8 +41,8 @@ input[type=number] {
     display: block;
     font-size: 5em;
     width: 100%;
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0;
     /* height: 20px;
     width: 160px;
     color: #CCC; */
