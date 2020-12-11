@@ -27,7 +27,7 @@ input::-webkit-input-placeholder {
     border: 0px solid;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 100;
-    font-size: 6em;
+    font-size: 4em;
     display: block;
     width: 100%;
     margin: 0;
@@ -43,7 +43,7 @@ input::-webkit-input-placeholder {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 100;
     display: block;
-    font-size: 5em;
+    font-size: 3em;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -108,4 +108,8 @@ textarea:focus, input:focus{
 
 .footer {
     height: 5em;
+}
+
+.col-sm {
+    padding: 0px;
 }

@@ -11,6 +11,10 @@
         gtag('config', 'UA-173155837-1');
     </script>
 
+    <!-- AutoNumeric -->
+    <script src="https://cdn.jsdelivr.net/npm/autonumeric@4.5.4"></script>
+
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -47,42 +51,64 @@
     <meta name="google-site-verification" content="-ubeyw6cE8tr6kg8Aw1EYzW7orboA4yQ4OvSnH9a7LM" />
 </head>
 <body>
-    <div class="vh-33 container-fluid section-1 py-4 px-4">
-        <div>
-            <input id="inputSqm" type="number" placeholder="Sq m" class="input-main"
-            oninput="weightConverter(this.id, this.value)" onchange="weightConverter(this.id, this.value)"
-            min="0">
-            <label class="label-main" for="inputSqm">ตารางเมตร</label>
+    <div class="row">
+        <div class="col-sm">
+            <div class="container-fluid section-2 py-4 px-4">
+                <div>
+                    <input id="inputSqm" type="number" placeholder="Sq m" class="input-main"
+                    oninput="weightConverter(this.id, this.value)" onchange="weightConverter(this.id, this.value)"
+                    min="0">
+                    <label class="label-main" for="inputSqm">ตารางเมตร</label>
+                </div>
+            </div>
+            <div class="container-fluid section-2 py-5 px-4">
+                <div class="row">
+                    <div class="col-6 col-lg-4">
+                        <input id="inputRai" type="number" placeholder="Rai" class="input-secondary"
+                        oninput="weightConverter(this.id, this.value)" onchange="weightConverter(this.id, this.value)"
+                        min="0">
+                        <label class="label-secondary" for="inputRai">ไร่</label>
+                    </div>
+                    <div class="col-6 col-lg-4">
+                        <input id="inputNgan" type="number" placeholder="Ngan" class="input-secondary"
+                        oninput="weightConverter(this.id, this.value)" onchange="weightConverter(this.id, this.value)"
+                        min="0">
+                        <label class="label-secondary" for="inputNgan">งาน</label>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <input id="inputWah" type="number" placeholder="Sq wah" class="input-secondary"
+                        oninput="weightConverter(this.id, this.value)" onchange="weightConverter(this.id, this.value)"
+                        min="0">
+                        <label class="label-secondary" for="inputWah">ตารางวา</label>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid section-2 py-4 px-4">
+                <input id="inputTotalWah" type="number" placeholder="Total sq wah" class="input-main"
+                oninput="weightConverter(this.id, this.value)" onchange="weightConverter(this.id, this.value)"
+                min="0">
+                <label class="label-main" for="inputTotalWah">ตารางวา (รวม)</label>
+                <div class="footer">&nbsp;</div>
+            </div>
         </div>
-    </div>
-    <div class="vh-33 container-fluid section-2 py-5 px-4">
-        <div class="row">
-            <div class="col-6 col-lg-4">
-                <input id="inputRai" type="number" placeholder="Rai" class="input-secondary"
-                oninput="weightConverter(this.id, this.value)" onchange="weightConverter(this.id, this.value)"
-                min="0">
-                <label class="label-secondary" for="inputRai">ไร่</label>
+        <div class="col-sm">
+            <div class="container-fluid section-1 py-4 px-4">
+                <div>
+                    <input id="inputPrice" type="number" placeholder="Price (THB)" class="input-main"
+                    oninput="weightConverter(this.id, this.value)" onchange="priceConverter(this.id, this.value)"
+                    min="0">
+                    <label class="label-main" for="inputSqm">ราคา</label>
+                </div>
             </div>
-            <div class="col-6 col-lg-4">
-                <input id="inputNgan" type="number" placeholder="Ngan" class="input-secondary"
-                oninput="weightConverter(this.id, this.value)" onchange="weightConverter(this.id, this.value)"
-                min="0">
-                <label class="label-secondary" for="inputNgan">งาน</label>
-            </div>
-            <div class="col-12 col-lg-4">
-                <input id="inputWah" type="number" placeholder="Sq wah" class="input-secondary"
-                oninput="weightConverter(this.id, this.value)" onchange="weightConverter(this.id, this.value)"
-                min="0">
-                <label class="label-secondary" for="inputWah">ตารางวา</label>
+            <div class="container-fluid section-1 py-4 px-4">
+                <div>
+                    <input id="inputPricePerRai" type="number" placeholder="Price per Rai (THB)" class="input-main"
+                    oninput="weightConverter(this.id, this.value)" onchange="priceConverter(this.id, this.value)"
+                    min="0">
+                    <label class="label-main" for="inputSqm">ราคาต่อไร่</label>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="vh-33 container-fluid section-3 py-4 px-4">
-        <input id="inputTotalWah" type="number" placeholder="Total sq wah" class="input-main"
-        oninput="weightConverter(this.id, this.value)" onchange="weightConverter(this.id, this.value)"
-        min="0">
-        <label class="label-main" for="inputTotalWah">ตารางวา (รวม)</label>
-        <div class="footer">&nbsp;</div>
     </div>
 
     <!-- Optional JavaScript -->
